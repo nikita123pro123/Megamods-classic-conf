@@ -1,0 +1,75 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1739611177301
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:5bd75129-5cd8-4317-aeaa-034ec170b153-1739611152021] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  audio_instance_0 = [source:local]/config/fancymenu/assets/1.21song.ogg
+  audio_instance_weight_0 = 1.0
+  audio_instance_1 = [source:local]/config/fancymenu/assets/1.22song.ogg
+  audio_instance_weight_1 = 1.0
+  play_mode = shuffle
+  looping = true
+  volume = 0.8
+  sound_source = master
+  element_type = audio_v2
+  instance_identifier = fea6a469-2d5c-4194-90fd-c2f39da26f5f-1739605352873
+  custom_element_layer_name = 1
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 992
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -50
+  y = -35
+  width = 100
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 5ed80637-916b-417d-8366-25d13936301f-1739561300844
+  [loading_requirement_container_meta:5ed80637-916b-417d-8366-25d13936301f-1739561300844] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #5CA6EFFF
+}
+
